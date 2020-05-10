@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Open Sans;
+}
+/*-- LANDING PAGE STYLING --*/
+#hero {
+  height: 100vh;
+  background: url( "https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+.site-content {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents {
+  margin-top: 10%;
+}
+.site-content img {
+  padding-bottom: 25px;
+}
+.site-title {
+  padding-bottom: 25px;
+}
+#hero h1 {
+  font-size: 50px;
+}
+.site-description {
+  font-size: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.line-two {
+  padding-bottom: 0;
+}
+.mouse {
+  position: absolute;
+  bottom: 0;
+}
+@media screen and (max-width: 601px) {
+  .site-title {
+    padding-bottom: 15px;
+  }
+  .line-two {
+    padding-bottom: 5px;
+  }
+  .site-description {
+    font-size: 14px;
+  }
+  #hero h1 {
+    font-size: 28px;
+  }
+}
+/*--- ABOUT STYLING --*/
+#about {
+  height: auto;
+  margin: 10px auto 65px;
+  text-align: center;
+}
+#about .container {
+  padding-top: 30px;
+}
+#about h1 {
+  font-size: 30px;
+}
+#about h1::after {
+  content: '';
+  background: #222;
+  display: block;
+  height: 2px;
+  width: 10%;
+  margin: 20px auto 30px;
+}
+@media screen and (max-width: 601px) {
+  #about {
+    margin: 40px 20px;
+  }
+  #about h1::after {
+    width: 35%;
+  }
+  #about p {
+    font-size: 16px;
+    margin: 20px 20px;
+  }
+}
