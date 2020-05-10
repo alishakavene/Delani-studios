@@ -16,3 +16,5 @@ You need a web browser installed on your machine as well as a text editor in ord
   * javascript  
   * jquery
   * bootstrap
+## contact
+contact me @ akmunywoki@gmail.com
