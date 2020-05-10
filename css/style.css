@@ -333,3 +333,39 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+@media screen and (max-width: 501px) {
+  #portfolio h1::after {
+    margin: 15px auto 20px;
+  }
+  #portfolio h1::after {
+    width: 35%;
+  }
+  #portfolio .icon {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+/*-- CONTACT STYLING --*/
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg ) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: #c8c8c8;
+}
+#contact h1 {
+  font-size: 30px;
+  text-align: center;
+}
+#contact h1::after {
+  content: '';
+  background: #ddd;
+  display: block;
+  height: 2px;
+  width: 15%;
+  margin: 15px auto 10px;
+}
