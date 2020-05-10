@@ -31,6 +31,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Github pages link
 You can view the live application through this link https://alishakavene.github.io/Delani-studios/
 
-Copyright
+## Copyright
 (c) 2020 Alisha Kavene
 
