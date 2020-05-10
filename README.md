@@ -9,3 +9,10 @@ You need a web browser installed on your machine as well as a text editor in ord
 * 1.Atom
 * 2.Sublime
 * 3.Visual Studio Code
+## Technologies Used
+
+  * html
+  * css
+  * javascript  
+  * jquery
+  * bootstrap
