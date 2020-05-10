@@ -16,5 +16,7 @@ You need a web browser installed on your machine as well as a text editor in ord
   * javascript  
   * jquery
   * bootstrap
-## contact
-contact me @ akmunywoki@gmail.com
+ ## Support and contact details
+You can provide feedback or raise any issues/ bugs through the following means https://github.com/alishakavene/akancalculator
+
+Slack me @ alishakavene
